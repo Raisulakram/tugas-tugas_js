@@ -1,17 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+form {
+    background-color: aqua;
+    max-width: 400px;
+    margin: 120px auto;
+    padding: 30px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border: 1px solid #827979;
+    border-radius: 5px;
 }
 
 h1 {
     text-align: center;
-}
-
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
 label {
@@ -20,9 +25,15 @@ label {
 }
 
 input[type="text"],
-input[type="number"],
-select {
+input[type="number"] {
     width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+select{
+    width: 105%;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;

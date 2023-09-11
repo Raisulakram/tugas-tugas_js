@@ -15,9 +15,12 @@
 
         <label >Pilih Produk:</label>
         <select id="produk" name="produk">
-            <option value="TV">TV</option>
-            <option value="AC">AC</option>
-            <option value="Kulkas">Kulkas</option>
+           <script>
+                const produkData = ["TV", "AC", "Kulkas"];
+                for (let i = 0; i < produkData.length; i++) {
+                    document.write(`<option value="${produkData[i]}">${produkData[i]}</option>`);
+                }
+            </script>
         </select>
         <br><br>
 
